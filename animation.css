@@ -1,0 +1,6 @@
+input.input-text-home:focus{
+    border: 1px solid var(--blue);
+}
+.dropdown-act:hover .dropdown{
+   display: block;
+}
