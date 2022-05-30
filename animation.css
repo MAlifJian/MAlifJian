@@ -4,3 +4,14 @@ input.input-text-home:focus{
 .dropdown-act:hover .dropdown{
    display: block;
 }
+.card-image:hover .card-rating{
+    display:none;
+}
+.card-image:hover .card-country{
+    display:none;
+}
+.card-image:hover .card-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -23,6 +23,7 @@ nav .container .logo span:nth-child(1){
 nav .container .logo span:nth-child(2){
     color: var(--black);
     font-family: var(--fredoka);
+    font-weight: bold;
 }
 ul.ul-home-list{
     list-style: none;
@@ -61,4 +62,68 @@ input.input-text-home{
     height: 30px;
     background-color: gray;
     border-radius: 50%;
+}
+/* Main */
+main{
+    display: flex;
+    flex-direction: column;
+}
+/* Card Box */
+#card-box{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+}
+#new{
+    background-color: white;
+    padding: 10px;
+}
+#card-container{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 700px;
+    min-height: 250px;
+    max-width: 700px;
+}
+.card{
+    width: 150px;
+    height: 250px;
+    margin:20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5%;
+}
+.card-image{
+    position: relative;
+    width: 150px;
+    height: 200px;
+    background-image: url("konosuba.jpg");
+    background-size: cover; 
+}
+.card-cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    position:absolute;
+    display: none;
+
+}
+.card-country{
+    position: absolute;
+    right: 0;
+    margin: 5px;
+}
+.card-country img{
+    width: 24px;
+    height: 24px
+}
+.card-rating{
+    padding: 5px;
+    border-top-right-radius: 20%;
+    color:white;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,.7);
+}
+.card-desc{
+    padding:5px;
 }

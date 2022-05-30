@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Mochiy+Pop+One&display=swap');
 
 :root {
     --black: #1A1A1A;
     --blue: #5D8BF4;
-    --fredoka : "Fredoka One", san-serif;
+    --fredoka : "Fredoka", san-serif;
     --mochiy : "Mochiy Pop One", sans-serif
 }
 body{
@@ -15,6 +15,9 @@ body{
 a{
     text-decoration: none;
     color: inherit;
+}
+hr{
+    border-top: 1px solid rgba(0,0,0,.3)
 }
 *{
     padding:0;
