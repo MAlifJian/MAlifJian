@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Mochiy+Pop+One&display=swap');
+
+:root {
+    --black: #1A1A1A;
+    --blue: #5D8BF4;
+    --fredoka : "Fredoka", san-serif;
+    --mochiy : "Mochiy Pop One", sans-serif
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: #E8EBF5;
+    font-family: var(--fredoka);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+hr{
+    border-top: 1px solid rgba(0,0,0,.3);
+    margin:10px;
+}
+*{
+    padding:0;
+    margin:0;
+    clear: both;
+}
+.container{
+    display: flex;
+}
+.dropdown{
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+    background-color: var(--black);
+    position: absolute;
+    bottom: -35px;
+    display: none;
+}

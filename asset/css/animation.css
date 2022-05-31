@@ -1,0 +1,21 @@
+input.input-text-home:focus{
+    border: 1px solid var(--blue);
+}
+.dropdown-act:hover .dropdown{
+   display: block;
+}
+.card-image:hover .card-rating{
+    display:none;
+}
+.card-image:hover .card-country{
+    display:none;
+}
+.card-image:hover .card-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-image:hover .card-cover.updated{
+    display: block;
+    padding: 20px 10px;
+}
