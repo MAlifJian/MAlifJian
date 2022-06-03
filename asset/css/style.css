@@ -5,7 +5,7 @@ nav{
 }
 
 /* Bagian Kiri */
-nav .container .section-left{
+.section-left{
     flex-grow: 1;
     display: flex;
     align-items: center;
@@ -15,12 +15,12 @@ nav .container .logo{
     padding: 10px;
     font-size: 32px;
 }
-nav .container .logo span:nth-child(1){
+.logo span:nth-child(1){
     color: var(--blue);
     font-family: var(--mochiy);
     
 }
-nav .container .logo span:nth-child(2){
+.logo span:nth-child(2){
     color: var(--black);
     font-family: var(--mochiy);
     font-weight: bold;
@@ -37,7 +37,7 @@ li.li-home-list{
     position: relative;
 }
 /* Bagian kanan */
-nav .container .section-right{
+.section-right{
     flex-grow: 1;
     display: flex;
     align-items: center;
@@ -57,10 +57,9 @@ input.input-text-home{
 .login{
     position: relative;
 }
-.img-thumb{
+.img-thumb img{
     width: 30px;
     height: 30px;
-    background-color: gray;
     border-radius: 50%;
 }
 /* Main */
@@ -92,7 +91,7 @@ main{
     flex-wrap: wrap;
     min-width: 150px;
     min-height: 250px;
-    max-width: 590px;
+    max-width: 570px;
     box-sizing: border-box;
 }
 .card-container.view{
@@ -102,7 +101,6 @@ main{
     width: 150px;
     height: 250px;
     margin:20px;
-    border: 1px solid #dee2e6;
     border-radius: 5%;
 }
 .card-image{
@@ -141,4 +139,42 @@ main{
 }
 .card-desc{
     padding:5px;
+}
+/* Footer */
+footer{
+    height: 150px;
+    padding-top: 20px;
+    margin-top: 20px;
+    background-color: white;
+}
+footer .section-left{
+    flex-direction: column;
+    align-items: unset;
+    flex-grow: unset;
+}
+footer .section-right{
+    align-items: unset;
+}
+footer .logo{
+    margin: 10px 0;
+    font-size: 20px;
+}
+footer #search{
+    width: 100%;
+}
+.disclaimer{
+    font-size: 13px;
+    color: #323232;
+}
+footer ul {
+    list-style: none;
+}
+footer li{
+    margin: 4px 0;
+    color: var(--blue)
+}
+.wrapper-footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
 }

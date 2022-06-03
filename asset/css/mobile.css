@@ -1,0 +1,21 @@
+@media only screen and ( max-width: 600px ){
+    /* Navbar */
+    nav{
+        overflow: hidden;
+    }
+    .card-container,.card-container.view{
+        max-width: 380px;
+    }
+    .navigation{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    /* footer */
+    .wrapper-footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
