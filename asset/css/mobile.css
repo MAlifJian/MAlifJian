@@ -3,14 +3,24 @@
     nav{
         overflow: hidden;
     }
-    .card-container,.card-container.view{
-        max-width: 380px;
-    }
     .navigation{
         display: none;
     }
+    input.input-text-home{
+        width: 100%;
+    }
     .login{
         display: none;
+    }
+    /* Card */
+    .card-container,.card-container.view{
+        max-width: 85%;
+    }
+    .card{
+        width: 100%;
+    }
+    .card-image{
+        height: 150px;
     }
     /* footer */
     .wrapper-footer{

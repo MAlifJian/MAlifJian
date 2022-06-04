@@ -91,24 +91,29 @@ main{
     flex-wrap: wrap;
     min-width: 150px;
     min-height: 250px;
-    max-width: 570px;
+    max-width: 89%;
+    margin: auto;
     box-sizing: border-box;
 }
 .card-container.view{
     max-width: 780px;
 }
+.card-container a {
+    margin: 20px;
+}
 .card{
     width: 150px;
-    height: 250px;
-    margin:20px;
+    /* height: 250px; */
+    /* margin:20px; */
     border-radius: 5%;
 }
 .card-image{
     position: relative;
-    width: 150px;
+    width: inherit;
     height: 200px;
     background-image: url("../img/konosuba.jpg");
     background-size: cover; 
+    background-position: center;
 }
 .card-cover{
     width: 100%;
