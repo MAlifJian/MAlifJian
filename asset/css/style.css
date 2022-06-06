@@ -62,6 +62,15 @@ input.input-text-home{
     height: 30px;
     border-radius: 50%;
 }
+/* Bagian Bawah */
+.section-bottom{
+    display: none;
+    padding: 2%;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 9999;
+    top: 0px;
+}
 /* Main */
 main{
     display: flex;
@@ -79,6 +88,7 @@ main{
 }
 .card-section{
     position: relative;
+    margin-top: 10px;
 }
 .viewall{
     position: absolute;
@@ -88,6 +98,7 @@ main{
 }
 .card-container{
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     min-width: 150px;
     min-height: 250px;
@@ -99,7 +110,7 @@ main{
     max-width: 780px;
 }
 .card-container a {
-    margin: 5%;
+    margin: 5% 2% 0 2%;
 }
 .card{
     width: 150px;

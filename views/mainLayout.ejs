@@ -44,6 +44,48 @@
                 </div>
             </div>
         </div>
+        <div class="section-bottom">
+            <ul class="ul-home-list">
+                <li class="li-home-list dropdown-act">
+                    <a href="/">
+                        <% if (page === "home") { %>
+                            <i class="bi bi-house-door-fill"></i>
+                        <% }else{ %>
+                            <i class="bi bi-house-door"></i>
+                        <% } %> 
+                    </a>
+                    <div class="dropdown">Home</div>
+                </li>
+                <li  class="li-home-list dropdown-act">
+                    <a href="/view/favorite">
+                        <% if (page === "favorite") { %>
+                            <i class="bi bi-bookmark-fill"></i>
+                        <% } else {%>
+                            <i class="bi bi-bookmark"></i>
+                        <% } %> 
+                    </a>
+                    <div class="dropdown">Favorite</div>
+                </li>
+                <li class="li-home-list dropdown-act">
+                        <% if (page == "genre") { %>
+                            <i class="bi bi-arrow-down-square-fill"></i>
+                        <% } else {%>
+                            <i class="bi bi-arrow-down-square"></i>
+                        <% } %> 
+                    <div class="dropdown">Genre</div>
+                </li>
+                <li class="li-home-list dropdown-act">
+                    <a href="/login">
+                        <% if (page == "login") { %>
+                            <i class="bi bi-person-fill"></i>
+                        <% } else {%>
+                            <i class="bi bi-person"></i>
+                        <% } %> 
+                    </a>
+                    <div class="dropdown">Login</div>
+                </li>
+            </ul>
+        </div>
     </nav>
     <%- body %>
     <footer>

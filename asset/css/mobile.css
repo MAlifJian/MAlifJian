@@ -12,6 +12,13 @@
     .login{
         display: none;
     }
+    .section-bottom{
+        display: flex;
+    }
+    .ul-home-list{
+        justify-content: space-around;
+        width: 100%;
+    }
     /* Card */
     .card-container,.card-container.view{
         max-width: 85%;
